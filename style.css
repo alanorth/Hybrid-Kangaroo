@@ -443,6 +443,10 @@ img.wp-smiley {
 	color: #A6C2CF !important;
 	}
 
+.entry-content p {
+	text-align: justify;
+	}
+
 /* Post title */
 .entry-title {
 	font-size: 21px;
@@ -785,6 +789,10 @@ li.author #reply {
 	}
 #comments-template li.author code {
 	background: transparent;
+	}
+
+.comment-text p {
+	text-align: justify;
 	}
 
 /* Form */
