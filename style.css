@@ -621,7 +621,7 @@ p.page-links a {
 	overflow: hidden;
 	margin: 0 0 21px 0;
 	padding: 18px 15px;
-	background: #fff;
+	background: url(images/content_background.png);
 	}
 .content .widget {
 	margin: 0;
