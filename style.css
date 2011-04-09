@@ -721,10 +721,8 @@ li.author #reply {
 	overflow: hidden;
 	margin-bottom: 9px;
 	padding: 9px 9px 0 9px;
-	color: #333;
-	background: #f9f9f9;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+	color: #fff;
+	border-bottom: 1px solid #444;
 	}
 #comments li li, #comments li.author li li {
 	color: #333;
