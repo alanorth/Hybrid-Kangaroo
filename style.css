@@ -412,7 +412,7 @@ img.wp-smiley {
 	float: left;
 	width: 600px;
 	padding: 20px;
-	background: #fff;
+	background: url(images/content_background.png);
 	}
 .no-widgets .content, .no-default-widgets .content, .primary-inactive.secondary-inactive .content {
 	width: 920px;
