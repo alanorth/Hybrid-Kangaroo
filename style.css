@@ -293,7 +293,6 @@ img.wp-smiley {
 .gallery {
 	display: block;
 	text-align: center;
-	margin-bottom: 21px !important;
 	}
 .gallery img {
 	border: 1px solid #3c738c;
@@ -860,4 +859,9 @@ li.entry-author .button, li.entry-author #submit {
 
 span.before {
 	font-family: Ubuntu, DejaVu Sans, Lucida Grande, Verdana, Arial, sans-serif;
+}
+
+/* Override the weird gallery-item margin from 21px.css */
+dl.gallery-item {
+	margin: 0;
 }
