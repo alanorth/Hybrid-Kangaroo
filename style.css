@@ -355,7 +355,11 @@ img.wp-smiley {
 #primary-menu li {
 	margin: 0 18px 0 0;
 	padding: 0;
-	background: #3c738c;
+	background: url(images/button_background.png);
+	border: 1px solid #444;
+	}
+#primary-menu li:hover {
+	background: url(images/button_background_hover.png);
 	}
 #primary-menu li li {
 	margin: 0;
@@ -363,7 +367,8 @@ img.wp-smiley {
 #primary-menu li a {
 	float: left;
 	padding: 7px 12px;
-	color: #f9f9f9;
+	color: #fff;
+	text-decoration: none;
 	}
 #primary-menu ul li.current-menu-item {
 	background: #4d8ca8;
@@ -374,11 +379,8 @@ img.wp-smiley {
 
 /* Drop-down styles */
 #primary-menu ul ul {
-	background: #3c738c;
-	border-bottom: 1px solid #2e647d;
 	}
 #primary-menu li li {
-	border-top: 1px solid #2e647d;
 	}
 #primary-menu li li a {
 	font-size: 14px;
