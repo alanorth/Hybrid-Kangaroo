@@ -724,15 +724,16 @@ li.author #reply {
 	padding: 9px 9px 0 9px;
 	color: #fff;
 	border-bottom: 1px solid #444;
+	background: #1b1b1b;
 	}
 #comments li li, #comments li.author li li {
-	color: #333;
+	color: #fff;
 	margin: 0 9px 9px 18px;
-	background: #fff;
+	background: #2b2b2b;
 	}
 #comments li.author li, #comments li li li, #comments li li.author li, #comments li.author li.author li {
-	color: #333;
-	background: #f9f9f9;
+	color: #fff;
+	background: #3b3b3b;
 	}
 #comments li.author, #comments li li.author, #comments li li li.author, #comments li.author li.author li.author {
 	color: #f7f7f7;
