@@ -867,3 +867,9 @@ span.before {
 dl.gallery-item {
 	margin: 0;
 }
+
+/* disable text-shadow for embedded tweets */
+/* See: http://media.twitter.com/blackbird-pie/ for an example tweet */
+p.bbpTweet {
+	text-shadow: none;
+}
