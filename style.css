@@ -814,7 +814,7 @@ textarea {
 	width: 98.5%;
 	}
 .button, #submit {
-	width: 100px;
+	width: auto;
 	margin-right: 9px;
 	padding: 6px 9px;
 	font: .9em Ubuntu, DejaVu Sans, Lucida Grande, Verdana, Arial, sans-serif;
