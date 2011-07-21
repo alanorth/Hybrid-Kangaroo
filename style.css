@@ -201,8 +201,12 @@ td a, th a {
 /* Notes */
 .note {
 	padding: 6px 9px;
-	background: #eee;
-	border: 1px solid #ccc;
+	background: #2b2b2b;
+	border: 1px solid #444;
+	line-height: 1.2em;
+	font-size: 0.9em;
+	margin: 15px auto;
+	text-align: justify;
 	}
 
 /* Warnings/Alerts */
