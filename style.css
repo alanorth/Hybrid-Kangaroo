@@ -454,6 +454,14 @@ img.wp-smiley {
 .entry-content p a {
 	color: #3C738C;
 	}
+.entry-content h2, .entry-content h3 {
+	font-family: 'Comfortaa', serif;
+	font-weight: 200;
+	line-height: 140%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	margin: 33px 0 22px 0;
+}
 
 /* Post title */
 .entry-title {
@@ -652,6 +660,13 @@ p.page-links a {
 .widget-title {
 	font-size: 1.2em;
 	}
+h3.widget-title {
+	font-family: 'Comfortaa';
+	font-weight: 200;
+	line-height: 140%;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
 #subsidiary .widget-title {
 	color: #fff;
 	}
