@@ -699,6 +699,20 @@ h3.widget-title {
 	color: #ccc;
 	}
 
+/* Tag cloud */
+.term-cloud a {
+	display: block;
+	background: rgba(255, 255, 255, 0.03);
+	margin: 0 5px 5px 0;
+	padding: 2px 4px;
+	float: left;
+	text-decoration: none;
+}
+
+.term-cloud a:hover {
+	color: white;
+	background: rgba(255,255,255,0.15);
+}
 /* Widget search */
 .widget-search .search-text {
 	width: 230px;
