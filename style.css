@@ -139,7 +139,6 @@ code {
 pre {
 	overflow: auto;
 	padding: 9px;
-	background: url(images/pre.png) repeat 0 0;
 	border: 1px solid #eee;
 	}
 pre code {
