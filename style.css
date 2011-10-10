@@ -137,13 +137,16 @@ code {
 	padding: 0 3px;
 	}
 pre {
-	overflow: auto;
+	overflow-x: hidden !important; overflow: hidden !important; position: relative; z-index: 999;
+	display: block;
 	padding: 9px;
-	border: 1px solid #eee;
+	border: 1px solid #444;
+	background: #1b1b1b;
 	}
 pre code {
 	padding: 0;
 	background: transparent;
+	font-family: "Consolas", "Lucida Sans Unicode", "Monaco", "Courier New", Courier, mono, serif;
 	}
 .sticky pre {
 	background: #246F93;
@@ -412,7 +415,6 @@ img.wp-smiley {
 	}
 
 .content {
-	overflow: hidden;
 	float: left;
 	width: 600px;
 	padding: 20px;
@@ -427,7 +429,6 @@ img.wp-smiley {
 ************************************************/
 .hentry {
 	clear: both;
-	overflow: hidden;
 	height: 100%;
 	margin-bottom: 21px;
 	}
