@@ -11,7 +11,7 @@
  */
 
 function load_fonts() {
-	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Shanti');
+	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Shanti|Ubuntu+Mono');
 	wp_enqueue_style( 'googleFonts');
 	}
 

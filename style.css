@@ -146,7 +146,7 @@ pre {
 pre code {
 	padding: 0;
 	background: transparent;
-	font-family: "Consolas", "Lucida Sans Unicode", "Monaco", "Courier New", Courier, mono, serif;
+	font-family: "Ubuntu Mono", Courier, mono, serif;
 	}
 .sticky pre {
 	background: #246F93;
