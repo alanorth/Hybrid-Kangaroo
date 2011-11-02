@@ -134,6 +134,7 @@ blockquote em {
 code {
 	padding: 0 3px;
 	font-family: "Ubuntu Mono", Courier, mono, serif;
+	color: #aaa;
 	}
 pre {
 	overflow-x: hidden !important; overflow: hidden !important; position: relative; z-index: 999;
@@ -145,6 +146,7 @@ pre {
 pre code {
 	padding: 0;
 	background: transparent;
+	color: #fff;
 	}
 .sticky pre {
 	background: #246F93;
