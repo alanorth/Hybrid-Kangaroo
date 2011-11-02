@@ -63,19 +63,19 @@ a:hover, a:active {
 
 /* Headers */
 h2 {
-	font-size: 22px;
-	}
-h3 {
 	font-size: 20px;
 	}
-h4 {
+h3 {
 	font-size: 18px;
 	}
-h5 {
+h4 {
 	font-size: 16px;
 	}
-h6 {
+h5 {
 	font-size: 14px;
+	}
+h6 {
+	font-size: 12px;
 	}
 h1, h2, h3, h4, h5, h6 {
 	color: #fff;
