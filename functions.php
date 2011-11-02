@@ -11,7 +11,7 @@
  */
 
 function load_fonts() {
-	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:400,700,400italic,700italic');
+	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu:400,700,400italic,700italic|Comfortaa');
 	wp_enqueue_style( 'googleFonts');
 	}
 
