@@ -448,9 +448,6 @@ img.wp-smiley {
 	color: #A6C2CF !important;
 	}
 
-.entry-content p {
-	text-align: justify;
-	}
 .entry-content p a {
 	color: #3C738C;
 	}
@@ -829,10 +826,6 @@ li.author #reply {
 	}
 #comments-template li.author code {
 	background: transparent;
-	}
-
-.comment-text p {
-	text-align: justify;
 	}
 
 /* Form */
