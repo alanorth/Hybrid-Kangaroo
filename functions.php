@@ -15,7 +15,7 @@ function load_fonts() {
 	wp_enqueue_style( 'googleFonts');
 	}
 
-add_action('wp_print_styles', 'load_fonts');
+add_action('wp_enqueue_scripts', 'load_fonts');
 
 if (!is_admin()) {
 	// script to enable x-axis expansion of large code blocks on hover
