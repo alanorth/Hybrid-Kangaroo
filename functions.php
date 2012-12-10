@@ -17,9 +17,4 @@ function load_fonts() {
 
 add_action('wp_enqueue_scripts', 'load_fonts');
 
-if (!is_admin()) {
-	// script to enable x-axis expansion of large code blocks on hover
-	wp_enqueue_script('expanding_code_blocks', get_stylesheet_directory_uri() . '/expanding_code_blocks.js', array('jquery'), 1.0, true);
-}
-
 ?>
